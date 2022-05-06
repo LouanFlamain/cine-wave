@@ -16,6 +16,7 @@ const TableauGenre = {
     Crime: "80"
 };
 const ToutlesGenresAleatoires = document.querySelectorAll("#BroButton");
+const GenreAppear = document.querySelector(".Genre_Appear");
 const $response = document.querySelector("#response");
 const $buttonSurprise = document.querySelector("#filmSurprise");
 let $randomid = function() {
@@ -25,14 +26,13 @@ let $randomid = function() {
 };
 let $randomnum = function() {
     let randon = Math.floor(Math.random() * 20);
-    console.log(randon);
     return randon;
 };
 let genre;
 for(let i = 0; i < ToutlesGenresAleatoires.length; i++)ToutlesGenresAleatoires[i].addEventListener("click", ()=>{
     console.log(ToutlesGenresAleatoires[i].innerText);
     genre = ToutlesGenresAleatoires[i].innerText;
-    console.log(genre);
+    GenreAppear.innerHTML = "<h2>" + genre + "</h2>";
 });
 function getresponseDetails(response1) {
     fetch(`${API_URL}/discover/movie?api_key=${API_KEY}&page=${$randomid()}&with_genres=${TableauGenre[genre]}`).then((response)=>response.json()

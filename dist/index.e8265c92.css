@@ -593,4 +593,8 @@ input:nth-of-type(5):checked ~ main#carousel {
   padding: 4px;
 }
 
+.Genre_Appear {
+  color: purple;
+}
+
 /*# sourceMappingURL=index.e8265c92.css.map */

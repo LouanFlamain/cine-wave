@@ -35,7 +35,7 @@ for (let i = 0; i < ToutlesGenresAleatoires.length; i++) {
   ToutlesGenresAleatoires[i].addEventListener("click", () => {
     console.log(ToutlesGenresAleatoires[i].innerText);
     genre = ToutlesGenresAleatoires[i].innerText;
-    GenreAppear.innerHTML = <h2>${genre}</h2>;
+    GenreAppear.innerHTML = "<h2>" + genre + "</h2>";
   });
 }
 
