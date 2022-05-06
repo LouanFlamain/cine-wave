@@ -194,9 +194,6 @@ $netsplifLogo.addEventListener("click", function () {
     "<h3>Hassan Aidibe </h3>" +
     "<p>Réalisation du système de films aléatoires</p>" +
     "</div>" +
-    '<div class="item">' +
-    "<h2>Cine Wave</h2>" +
-    "</div>" +
     "<main>" +
     "</div>";
 });

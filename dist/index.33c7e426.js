@@ -363,9 +363,6 @@ function getMoviesById(arr1) {
 }
 // BOUCLE SELECTION
 for(let a = 0; a < $options.length; a++)$options[a].addEventListener("click", function(e) {
-    console.log("Je click sur ", $options[a].innerText);
-    console.log("Mes couilles");
-    console.log($options[a]);
     $main.innerHTML = "";
     for(let i = 0; i < arr[a][i]; i++){
         getMoviesById(arr[a][i]);
