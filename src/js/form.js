@@ -107,7 +107,6 @@ function showMovies(movies) {
   $count.classList.remove("is-hidden");
 }
 
-
 let $counterPage = function () {
   $currentPage.innerHTML = page;
   $lastPage.innerHTML = $lastVisiblePage;
@@ -159,13 +158,20 @@ $netsplifLogo.addEventListener("click", function () {
   $btnPage.classList.add("is-hidden");
   page = 1;
   $main.innerHTML =
-    '     <div class="projet-presentation">' +
-    '<input type="radio" name="position" checked />' +
+    '<div class="projet-presentation">' +
     '<input type="radio" name="position" />' +
     '<input type="radio" name="position" />' +
+    '<input type="radio" name="position" checked/>' +
     '<input type="radio" name="position" />' +
     '<input type="radio" name="position" />' +
     '<main id="carousel">' +
+    '<div class="item">' +
+    "<h2>Cine Wave</h2>" +
+    "</div>" +
+    '<div class="item">' +
+    "<h3>Louan Flamain :</h3>" +
+    "<p>html/css/js(bar de recherche, système de pages et affichage du responsive)</p>" +
+    "</div>" +
     '<div class="item">' +
     "<h3>Présentation du projet : </h3>" +
     "<p>Créer un service de streaming vidéo basé sur un concept original</p>" +
@@ -181,20 +187,18 @@ $netsplifLogo.addEventListener("click", function () {
     "</ul>" +
     "</div>" +
     '<div class="item">' +
-    "<h3>Louan Flamain :</h3>" +
-    "<p>html/css/js(bar de recherche, système de pages et affichage du responsive)</p>" +
+    "<h3>Tom Bonnet : </h3>" +
+    "<p>Menu-burger et recherche par courant cinématographique</p>" +
     "</div>" +
     '<div class="item">' +
-    "<h3>Hassan Aidibe</h3>" +
+    "<h3>Hassan Aidibe </h3>" +
     "<p>Réalisation du système de films aléatoires</p>" +
     "</div>" +
     '<div class="item">' +
-    "<h3>Tom Bonnet : </h3>" +
-    "<p>menu-burger et recherche par courant cinématographique</p>" +
+    "<h2>Cine Wave</h2>" +
     "</div>" +
-    '<div class="item">' +
-    "<h2>Cine Wave</h2>";
-  "</div>" + "<main>" + "</div>";
+    "<main>" +
+    "</div>";
 });
 // CODE POUR MENU BURGER
 $btnPlayerClose.addEventListener("click", function () {

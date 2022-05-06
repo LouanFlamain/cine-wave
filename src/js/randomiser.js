@@ -1,3 +1,5 @@
+//let $load = document.querySelector(".loader");
+
 const TableauGenre = {
   Action: "28",
   Comedy: "35",
@@ -50,6 +52,8 @@ function getresponseDetails(response) {
       let randomget = $randomnum();
       console.log(randomget);
 
+      $loader.classList.remove("is-active");
+
       let $mainContainer = document.createElement("div");
       let $movieTitle = document.createElement("h2");
       let $movieImage = document.createElement("img");
@@ -91,6 +95,7 @@ function getresponseDetails(response) {
     });
 }
 $buttonSurprise.addEventListener("click", function () {
+  $loader.classList.add("is-active");
   getresponseDetails();
   $main.innerHTML = "";
   $blur.classList.add("is-hidden");
