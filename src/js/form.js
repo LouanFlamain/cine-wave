@@ -170,7 +170,7 @@ $netsplifLogo.addEventListener("click", function () {
     "</div>" +
     '<div class="item">' +
     "<h3>Louan Flamain :</h3>" +
-    "<p>html/css/js(bar de recherche, système de pages et affichage du responsive), loader</p>" +
+    "<p>html/css/js(barre de recherche, système de pages et affichage du responsive), loader</p>" +
     "</div>" +
     '<div class="item">' +
     "<h3>Présentation du projet : </h3>" +
