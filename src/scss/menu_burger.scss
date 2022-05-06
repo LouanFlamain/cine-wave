@@ -26,16 +26,16 @@
   align-items: center;
   text-align: center;
 }
-.courants:hover{
-  background-color:rgb(228, 187, 222) ;
+.courants:hover {
+  background-color: rgb(228, 187, 222);
   cursor: pointer;
 }
-#BroButton:hover{
-  background-color:rgb(228, 187, 222) ;
+#BroButton:hover {
+  background-color: rgb(228, 187, 222);
   cursor: pointer;
 }
-.randomize:hover{
-  background-color:rgb(228, 187, 222) ;
+.randomize:hover {
+  background-color: rgb(228, 187, 222);
   cursor: pointer;
 }
 .border-whole {
@@ -71,10 +71,13 @@
 .menu-burger-is-active {
   display: flex;
 }
-.style{
-  border:1px solid purple;
-  margin:2px;
+.style {
+  border: 1px solid purple;
+  margin: 2px;
   padding: 4px;
   background-color: rgb(255, 255, 255);
   border-radius: 8px;
+}
+.Genre_Appear {
+  color: purple;
 }
