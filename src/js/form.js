@@ -191,7 +191,7 @@ $netsplifLogo.addEventListener("click", function () {
     "<p>Menu-burger et recherche par courant cinématographique</p>" +
     "</div>" +
     '<div class="item">' +
-    "<h3>Hassan Aidibe </h3>" +
+    "<h3>Hassan Aidibe : </h3>" +
     "<p>Réalisation du système de films aléatoires</p>" +
     "</div>" +
     "<main>" +
