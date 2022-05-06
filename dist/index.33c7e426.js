@@ -367,8 +367,8 @@ for(let a = 0; a < $options.length; a++)$options[a].addEventListener("click", fu
     for(let i = 0; i < arr[a][i]; i++){
         getMoviesById(arr[a][i]);
         $wholeMenu.classList.remove("menu-burger-is-active");
-        $blur.classList.add("is-hidden");
         $loader.classList.add("is-active");
+        $blur.classList.add("is-hidden");
     }
 });
 // SHOWMOVIES
