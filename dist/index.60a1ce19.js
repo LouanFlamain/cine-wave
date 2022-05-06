@@ -72,6 +72,8 @@ function getresponseDetails(response1) {
 }
 $buttonSurprise.addEventListener("click", function() {
     $loader.classList.add("is-active");
+    $btnPage.classList.add("is-hidden");
+    $count.innerText = "";
     getresponseDetails();
     $main.innerHTML = "";
     $blur.classList.add("is-hidden");

@@ -374,6 +374,8 @@ for(let a = 0; a < $options.length; a++)$options[a].addEventListener("click", fu
 // SHOWMOVIES
 function showMoviesbyId(movies) {
     $loader.classList.remove("is-active");
+    $count.innerText = "";
+    $btnPage.classList.add("is-hidden");
     let $mainContainer = document.createElement("div");
     let $movieTitle = document.createElement("h2");
     let $movieImage = document.createElement("img");
